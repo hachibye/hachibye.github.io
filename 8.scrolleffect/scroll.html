@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="scroll.css">
+
+</head>
+<body class="simple-demo">
+        <div id="content-wrapper">
+    
+        <div class="container">
+            <div class="banner">
+                <img src="https://images.unsplash.com/photo-1508361001413-7a9dca21d08a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="">
+                <h2 id="scale-it">萬聖節變裝舞會</h2>
+            </div>   
+        <div class="content">
+            <ul>
+                <li><img src="https://images.unsplash.com/photo-1509557965875-b88c97052f0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt=""></li>
+                <li><img src="https://images.unsplash.com/photo-1540427969750-1424f2fa0af8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt=""></li>
+                <li><img src="https://images.unsplash.com/photo-1540593151139-583128ef5a84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt=""></li>
+                <li><img src="https://images.unsplash.com/photo-1565377024937-5e947136c50c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt=""></li>
+                <li><img src="https://images.unsplash.com/photo-1568331704166-6214f152d98c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2102&q=80" alt=""></li>
+                <li><img src="https://images.unsplash.com/photo-1572531817824-5d721fc0ba9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <h2 id="scale-it">活動詳情</h2>
+            <p>日期：2020年.02月.02日</p>
+            <p>地點：台北市大安區找不到路123號4樓</p>
+        </div>
+
+
+        </div>    
+    
+        </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
+    <script>window.jQuery || document.write('<script src="_/js/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/jquery.superscrollorama.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var controller = $.superscrollorama();
+            controller.addTween('#fly-it', TweenMax.from( $('#fly-it'), .25, {css:{right:'1000px'}, ease:Quad.easeInOut}));
+            controller.addTween('#scale-it', TweenMax.fromTo( $('#scale-it'), .25, {css:{opacity:0, fontSize:'20px'}, immediateRender:true, ease:Quad.easeInOut}, {css:{opacity:1, fontSize:'120px'}, ease:Quad.easeInOut}));
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+*,ul,a{
+    margin:0;
+    padding:0;
+    border:0;
+    list-style:none;
+    text-decoration:none;
+}
+#banner_wrap{
+    background-size: cover;
+    height:400px;
+    width:1000px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+#banner{
+    position:absolute;
+    height:400px;
+
+}
+.oLi{
+    width:1000px;
+    height:400px;
+    float:left;
+}
+
+.card-img-sm-left {
+    width: 60%;
+}
+
+h1 {
+    position:relative;
+    padding-top: 100px;
+    padding-left: 30px;
+    color: white;
+}
+h2 {
+    position:relative;
+    padding-left: 30px;
+    color: white;
+}
+
+#about img {
+    width: 600px;
+}
+
+#mainNav a {
+    color: black;
+}
+
+#mainNav a:hover {
+    color: white;
+}

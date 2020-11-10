@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.article{
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto 30px auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s0{
+    background-image: url(https://images.unsplash.com/photo-1535227798054-e4373ef3795a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1644&q=80);
+}
+
+.s1{
+    background-image: url(https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+.s2{
+    background-image: url(https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+.s3{
+    background-image: url(https://images.unsplash.com/photo-1516594798947-e65505dbb29d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+.s4{
+    background-image: url(https://images.unsplash.com/photo-1581578017426-04fbc2b0511e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+}
+
+.article h1{
+    font-size: 80px;
+    padding: 120px 0;
+    color: white;
+}
+
+.article h2{
+    font-size: 60px;
+    padding: 30px 0;
+    color: white;
+}
+
+.article p{
+    font-size: 30px;
+    color: white;
+    padding: 100px 0;
+}
+
+.article h2:hover{
+    -webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	z-index: 1;
+}
+
+.article h2{
+    position: absolute;
+    top: 10%;
+    -webkit-transition: -webkit-transform 0.4s linear;
+    -moz-transition: -moz-transform 0.4s linear;
+    -o-transition: -o-transform 0.4s linear;
+    -ms-transition: -ms-transform 0.4s linear;
+    transition: transform 0.4s linear;
+}

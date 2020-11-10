@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu{
+    height: 108px;
+    background-color: #AA0601;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.menu a{
+    color: white;
+    padding: 0 20px;
+}
+
+.menu a:hover{
+    color: greenyellow;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: url(/10.glasses/img/banner.png) 0% 0% no-repeat;
+}
+
+.banner h1{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 400px;
+    color: #650300;
+}
+
+.banner h2{
+    text-align: center;
+    font-size: 64px;
+    color: #650300;
+}
+
+.service{
+    background-color: #FBF2F2;
+    padding: 60px 60px;
+}
+
+.service ul{
+    display: flex;
+    justify-content: center;
+    padding: 60px 60px 0 60px;
+}
+
+.service .icon{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.service h2{
+    color: #650300;
+    font-size: 48px;
+    text-align: center;
+}
+
+.service h3{
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.service p{
+    color: black;
+    line-height: 24px;
+}
+
+.service li{
+    color: #650300;
+    padding: 0px 30px;
+}
+
+.service h3{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.product{
+    padding: 60px 0;
+}
+
+.product h2{
+    text-align: center;
+    color: #650300;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.product img{
+    width: 635px;
+    padding: 0 10px;
+}
+
+.product .icon{
+    width: 48px;
+    height: 48px;
+}
+
+.product ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.product li{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #AA0601;
+    padding: 30px 30px;
+    font-size: 48px;
+}
+
+.design{
+    width: 100%;
+    height: 100vh;
+    background: url(/10.glasses/img/bg.png) 0% 0% no-repeat;
+}
+
+.design h2{
+    color: white;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.design ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.design .p1{
+    width: 540px;
+    height: 472px;
+    opacity: 0.8;
+    background: url(/10.glasses/img/product-8.png) no-repeat;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    z-index: 1;
+    margin: 60px 60px;
+
+}
+
+.design .p2{
+    width: 540px;
+    height: 472px;
+    opacity: 0.8;
+    background: url(/10.glasses/img/product-9.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin: 60px 60px;
+}
+
+.design h3{
+    color: #AA0601;
+    font-size: 72px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+}
+
+.customer{
+    padding: 60px 0;
+}
+
+.customer ul{
+    display: flex;
+    justify-content: center;
+}
+
+.customer li{
+    border: 1px solid black;
+    margin: 30px 20px;
+}
+
+.customer h2{
+    text-align: center;
+    color: #650300;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.customer .name{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.customer .txt{
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+.customer .date{
+    font-size: 14px;
+    color: #707070;
+    padding: 10px 10px;
+}
+
+.comment{
+    margin: 0 auto;
+    background-color: #AA06010D;
+    padding: 60px 0px;
+}
+
+.comment input{
+    padding: 10px 200px 10px 10px;
+    margin: 10px 0;
+}
+
+.comment .comment-txt{
+    padding: 10px 200px 100px 10px;
+}
+
+.comment button{
+    margin: 10px 0;
+    padding: 10px 50px;
+    border: none;
+    color: white;
+    background-color: #AA0601;
+}
+
+.footer{
+    background-color: #AA0601;
+    color: white;
+    margin: 0 auto;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-menu li{
+    padding: 0px 10px;
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.contact li{
+    font-size: 36px;
+}

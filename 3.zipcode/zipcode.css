@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body {
+  font-family: 'Raleway', 'Noto Sans TC', sans-serif;
+  background: #1D976C; 
+  background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  
+  background: linear-gradient(to right, #93F9B9, #1D976C); 
+  height: 100vh;
+  font-weight: 300;
+}
+
+.main {
+  float: left;
+  text-align: center;
+}
+
+.main p {
+  display: inline-block;
+  text-align: left;
+}

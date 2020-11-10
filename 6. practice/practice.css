@@ -1,0 +1,126 @@
+.container{
+  width: 1920px;
+}
+
+.header{
+  width: 566px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 80px;
+}
+
+hr{
+  margin: 30px 0;
+}
+
+.header img{
+  width: 360px;
+  margin-bottom: 60px;
+}
+
+.body{
+  width: 566px;
+  margin: 0 auto;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 60px;
+}
+
+span{
+  font-size: 24px;
+  color: #A00404;
+  margin-left: 10px;
+}
+
+p{
+  line-height: 36px;
+  margin-bottom: 30px;  
+}
+
+.skills{
+  width: 1200px;
+  background: #415165;
+  padding: 30px 0;
+  margin-bottom: 30px; 
+}
+
+.skills-text{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.skills-text h2{
+  font-size: 32px;
+  line-height: 45px;
+  color: #FFF;
+}
+
+.skills-text hr{
+  
+}
+
+.skills-text span{
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFF;
+}
+
+.skills-text li{
+  margin: 0;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 36px;
+  border-left: 1px solid #FFF;
+}
+
+.work ul{
+  margin-left: 30px;
+  padding-left: 30px;
+  border-left: 1px solid green;
+}
+
+.work li{
+  line-height: 36px;  
+}
+
+.work h3{
+  font-weight: bold;
+}
+
+.footer{
+  width: 1920px;
+  background: #415165;
+}
+
+.footer-text{
+  width: 566px;
+  margin: 0 auto;
+}
+
+.footer-text h2{
+  font-size: 32px;
+  line-height: 45px;
+  color: #FFF;
+}
+
+.footer-text span{
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFF;
+}
+
+.footer-text h2{
+  text-align: center;
+}
+
+.footer-text li{
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+  list-style-type: none;
+}
+

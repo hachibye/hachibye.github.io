@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+}
+
+#mainNav a {
+    color: black;
+    opacity: 0.8;
+}
+
+#mainNav a:hover {
+    color: white;
+}
+
+.cover {
+    position: relative;
+    padding: 0 0;  
+}
+
+.cover span {
+    color: white;
+    opacity: 0.8;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    z-index: 1;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.moveDown {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.moveDown:hover {
+    color: black;
+}
+
+.coverImg {
+    height: 300px !important;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about img{
+    width: 300px;
+}
+
+.img1 {
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 100% auto;
+    height: 700px;
+    float: left;
+}
+
+#about {
+    padding-top: 10px;
+}
+
+#aboutText {
+    padding-top: 10px;
+}
+
+#colle {
+    padding-top: 10px;
+}
+
+#contact {
+    padding-top: 10px;
+}
+
+.card-img-top {
+    height: 350px;
+}
